@@ -5,7 +5,6 @@ katz_deli = []
 
 # method 1 pushing into string, see method 2 at the bottom
 def line(array)
-  katz_line = []
   katz_string = "The line is currently:"
   if array.length > 0
     array.each_with_index do |name, num|
